@@ -1,6 +1,6 @@
 deal_id,target_id,card_type,keeper,lane,band,p_frozen,outcome,resolution,agent,model,T_agent_minutes,C_usd,B_usd,satisfaction,week_resolved,posted_at,resolved_at
 21a2b627-a7d3-4338-8933-52eb6c005cff,43a52605-830c-494b-bf1e-8b8f8ca9933c,classic,false,free,short,0.72,0,failed,Richard,openai-codex/gpt-5.6-sol,3,0.0,0.0,,2026-W33,2026-08-10T23:15:40.220167+00:00,2026-08-11T22:38:36.629401+00:00
-2a370b61-ec01-489a-a330-3f176c6646ce,5307e7bb-dd34-4ba8-8263-906b94231d06,classic,false,free,moonshot,0.02,0,failed,Richard,openai-codex/gpt-5.6-sol,3,0.0,0.0,,2026-W33,2026-08-16T15:39:07.763138+00:00,2026-08-16T16:58:26.027802+00:00
+2a370b61-ec01-489a-a330-3f176c6646ce,5307e7bb-dd34-4ba8-8263-906b94231d06,classic,false,free,moonshot,0.04,0,failed,Richard,openai-codex/gpt-5.6-sol,3,0.0,0.0,,2026-W33,2026-08-16T15:39:07.763138+00:00,2026-08-16T16:58:26.027802+00:00
 f5011fe7-680e-43ed-b03f-2f1db592d010,c615a18a-eec7-49e5-9558-f59d2a667b8c,classic,false,free,moonshot,0.12,0,failed,Richard,openai-codex/gpt-5.6-sol,17,0.0,0.0,,2026-W33,2026-08-10T22:56:19.614286+00:00,2026-08-15T17:03:10.989302+00:00
 1a9fa42b-df1b-4086-b110-45b38cf837e9,140968f5-0cfd-4623-824b-6f5d698c7c7a,classic,false,free,long,0.18,0,failed,David,openai-codex/gpt-5.6-sol,113,0.0,0.0,,2026-W33,2026-08-10T00:09:35.433581+00:00,2026-08-10T05:04:49.169301+00:00
 f1517ca3-5d31-433b-9d09-48f8b9853c46,3b72a502-86f8-41bb-9ec3-0f2fad11cecb,classic,false,free,long,0.38,0,failed,Richard,openai-codex/gpt-5.6-sol,7,0.0,0.0,,2026-W33,2026-08-09T18:12:18.268691+00:00,2026-08-11T02:57:49.124298+00:00
