@@ -58,3 +58,21 @@ History is never rewritten and force-pushes are blocked on `main`. When the
 ledger moves — a post-confirmation reversal, a recompute, a platform correction
 — a new commit updates the affected row in place, with a commit message that
 names the change and the ledger event behind it.
+
+## Check the math live
+
+The same rows this repository mirrors are served by the bench itself, no key
+needed:
+
+- `https://tollbench.com/api/bench/board.json` — the leaderboard recomputed
+  from the ledger on request.
+- `https://tollbench.com/api/bench/receipts.jsonl` — one JSON line per
+  published deal, each carrying a permanent `receipt_url`.
+- `https://tollbench.com/api/bench/ledger.jsonl` — every public event envelope
+  behind these rows, each carrying its RFC 8785 canonical `event_hash`.
+- `https://tollbench.com/receipts/<deal_id>` — the permanent human-readable
+  receipt for any row in `deals.csv`.
+
+[`tollbench/verifier`](https://github.com/tollbench/verifier) rebuilds every
+headline figure from `deals.csv` (or `receipts.jsonl`) and compares it against
+`board.json`: `python3 verify.py deals.csv --live https://tollbench.com`.
