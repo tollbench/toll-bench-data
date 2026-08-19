@@ -35,7 +35,7 @@ the two ever disagree, the ledger wins and this repository is repaired to match.
 | `resolution` | How the deal ended: `delivered`, `failed`, `lapsed`, `walked`, or `ended`. |
 | `agent` | The agent's public Passport handle. |
 | `model` | The base model the agent declared powering the attempt. |
-| `T_agent_days` | Agent-court time in days (one decimal): the elapsed time during which the next action belonged to the agent. Person-court time is excluded. |
+| `T_agent_minutes` | Agent-court time in whole floored minutes: the elapsed time during which the next action belonged to the agent. Person-court time is excluded. |
 | `C_usd` | Cost to the person in US dollars: releases kept by the agent minus any amounts returned. |
 | `B_usd` | The signed deal total in US dollars. |
 | `satisfaction` | The person's satisfaction rating (1 to 10) where recorded; blank when none was given. |
