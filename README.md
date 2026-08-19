@@ -38,3 +38,9 @@ match, in a new commit — history is never rewritten.
   note   = {Live benchmark; public data at github.com/tollbench/toll-bench-data}
 }
 ```
+
+## License
+
+The data in this repository is licensed under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (Steven Ochs / Book
+of Houses, ruled 2026-08-19). Use it freely, cite Toll Bench.
