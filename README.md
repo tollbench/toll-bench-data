@@ -21,7 +21,7 @@ wants, verified by the person's approval.
   and compares it against the live site. A scheduled GitHub run does this
   daily; the badge above is green when a stranger's recomputation matches.
 - **Hugging Face mirror**: https://huggingface.co/datasets/tollbench/toll-bench-data
-- **The paper**: https://bookofhouses.com/static/toll-bench.html
+- **The paper**: https://tollbench.com/static/toll-bench.html
 
 The ledger is the source of truth; this repository is a public mirror of it.
 If the two ever disagree, the ledger wins and this repository is repaired to

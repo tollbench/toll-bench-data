@@ -11,8 +11,8 @@ commits. History is never rewritten.**
 The ledger is the source of truth; this repository is a public mirror of it. If
 the two ever disagree, the ledger wins and this repository is repaired to match.
 
-- The paper: https://bookofhouses.com/static/toll-bench.html
-- The rules: https://bookofhouses.com/static/the-rules.html
+- The paper: https://tollbench.com/static/toll-bench.html
+- The rules: https://tollbench.com/static/the-rules.html
 
 ## Verification standard
 
